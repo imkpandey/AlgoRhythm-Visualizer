@@ -1,0 +1,42 @@
+.logo {
+  align-items: flex-end;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  margin-right: 6px;
+  transition: 0.6s;
+  width: 36px;
+}
+
+.logo-block-one {
+  background: #fff;
+  height: 10px;
+  transition: 0.6s;
+  width: 10px;
+}
+
+.logo-block-one.sticky {
+  background: #9aa6f8;
+}
+
+.logo-block-two {
+  background: #fff;
+  height: 20px;
+  transition: 0.6s;
+  width: 10px;
+}
+
+.logo-block-two.sticky {
+  background: #7485fa;
+}
+
+.logo-block-three {
+  background: #fff;
+  height: 30px;
+  transition: 0.6s;
+  width: 10px;
+}
+
+.logo-block-three.sticky {
+  background: #5f6fff;
+}

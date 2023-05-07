@@ -1,0 +1,6 @@
+.contact-us {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 140vh;
+}
