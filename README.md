@@ -1,94 +1,70 @@
-[![CircleCI](https://circleci.com/gh/December-software-project/sort-algo/tree/main.svg?style=shield)](https://circleci.com/gh/December-software-project/sort-algo/tree/main)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2364c0d1-0366-4601-8ce0-1ac2084a5020/deploy-status)](https://app.netlify.com/sites/algosort/deploys)
-[![Maintainability Status](https://api.codeclimate.com/v1/badges/b7464f445c1a7f5de797/maintainability)](https://codeclimate.com/github/December-software-project/sort-algo/maintainability)
+# Getting Started with Create React App
 
-# Sort-Algo
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome to Sort-Algo, a sorting visualiser app which helps you to learn and understand sorting algorithms through
-interacting animations as well as explanations. <br />
-<br />
-We built this app as we feel there is a lack of visual representation when students learn sorting algorithms.
-Hence, we would like to provide future students who are learning these sorting algorithms a platform to visualize such
-algorithms with step by step explanations. We hope that you enjoy learning and playing around with this visualization
-tool. Check out our app [here!](https://algosort.netlify.app/)
+## Available Scripts
 
-## Features preview
+In the project directory, you can run:
 
-<p align="center"><strong>Bubble Sort preview</strong></p>
+### `npm start`
 
-<img src="images/BubbleSort.gif" alt="" />
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<br/>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<p align="center"><strong>Counting Sort preview</strong></p>
+### `npm test`
 
-<img src="images/CountingSort.gif" alt="" />
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<br/>
+### `npm run build`
 
-<p align="center"><strong>Bucket Sort preview</strong></p>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<img src="images/bucketsort.gif" alt="" />
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<br/>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br/>
+### `npm run eject`
 
-### Choose the algorithm you want
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-There are a wide range of algorithms, each with their complexity evaluations and code in `Java`
-, `JavaScript`, `Python` and `C/C++`.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Available algorithms:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-* Bubble Sort
-* Insertion Sort
-* Selection Sort
-* Merge Sort
-* Quick Sort
-* Heap Sort
-* Shell Sort
-* Counting Sort
-* Radix Sort
-* Bucket Sort
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Adjust the speed of the visualizer and array size
+## Learn More
 
-There are sliders to adjust the size and speed of the visualizer. The speed ranges from 1-10 and size ranges from 5-25
-or 1-10 depending on the algorithm selected.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Start the animation
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-There is a play button which starts the animation. Additionally, at any point in time, you can also pause the animation. Once
-the animation is completed, the play button will be replaced with a replay button.
+### Code Splitting
 
-### Step tracing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-There is a step tracing feature provided whereby pressing the arrow buttons will allow you to execute the animation step
-by step to fully understand how the algorithm works through visual animation and a description of what is happening at
-each step.
+### Analyzing the Bundle Size
 
-## Project structure
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-The current project structure and its important directories are shown below:
+### Making a Progressive Web App
 
-```
-SortAlgo
-└─public/
-└─src/
-  └─__test__/
-  └─app/
-  └─component/
-  └─contactus/
-  └─home/
-  └─howitworks/
-  └─team/
-  └─visualizer/
-  └─index
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Collaboration
+### Advanced Configuration
 
-If you like this project, and wish to contribute more to it, do contact us through the form in the
- `Contact Us` section from the [website](https://algosort.netlify.app/).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
